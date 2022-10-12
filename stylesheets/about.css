@@ -1,0 +1,61 @@
+body {
+  height: 3252px;
+  width: 1440px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: white;
+}
+section div {
+  display: inline-block;
+  width: 49.8%;
+  /* background: red; */
+  overflow: hidden;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+section h2,
+section p {
+  margin: 0 auto 0 17%;
+  width: 590px;
+}
+section h2 {
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 126px;
+  margin-bottom: 22px;
+}
+section p {
+  line-height: 38px;
+  font-size: 26px;
+}
+section div:nth-child(even) img {
+  padding: 80px 0 0 40px;
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+  margin: -86px auto 0 -79px;
+}
+section:nth-of-type(3) div:nth-of-type(1) {
+  margin-top: -50px;
+}
+.bottom_block {
+  text-align: center;
+}
+.bottom_block h2,
+.bottom_block p {
+  margin: 83 auto 0 17%;
+  width: 590px;
+}
+.bottom_block a {
+  text-decoration: none;
+  font-size: 16px;
+  border: .1px solid black;
+  display: inline-block;
+  border-radius: 6px;
+  padding: 16px 70px;
+  margin: 82px 20px 220px 0;
+}
+.btn_black {
+  color: white;
+  background: #bbb;
+}
